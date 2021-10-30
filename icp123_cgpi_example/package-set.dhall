@@ -10,7 +10,7 @@ let additions = [
   , version = "dfx-0.8.0"
   },
   { dependencies = [ "base" ] : List Text
-  , name = "icp123car"
+  , name = "icp123cgpi"
   , repo = "https://github.com/icpfans-xyz/icp123-cgpi"
   , version = "v0.0.1"
   }
