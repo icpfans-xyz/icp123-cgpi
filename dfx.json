@@ -1,0 +1,15 @@
+{
+  "canisters": {
+    "icp123_car": {
+      "main": "src/ICP123CGPI.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "dfx": "0.8.3",
+  "version": 1
+}
