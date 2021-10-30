@@ -1,10 +1,14 @@
 import Result "mo:base/Result";
-import Type "Type"
 
 module {
 
 
-    type Metadata = Type.Metadata;
+    // Metadata of a Project.
+    public type Metadata = {
+        projectId            : Text; // Name of the Project.
+        projectName          : Text; // Name of the Project
+        // TODO: add more fields (e.g. genre, ...)
+    };
 
     // Represents the interface of a Register canister what wants to interact with 
     // the ICP123CGP canister.

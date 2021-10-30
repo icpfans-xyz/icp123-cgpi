@@ -11,7 +11,7 @@ let additions = [
   },
   { dependencies = [ "base" ] : List Text
   , name = "icp123car"
-  , repo = "https://github.com/icpfans-xyz/icp123-car"
+  , repo = "https://github.com/icpfans-xyz/icp123-cgpi"
   , version = "v0.0.1"
   }
 ] : List Package
