@@ -32,7 +32,7 @@ module {
 
     // Represents the (minimal) interface of the Metascore canister.
     public type ICP123CGPInterface = actor {
-        // Methods that needs to be called to register 
+        // Interact registration information with ICP123，After activation, it can be recharged by ICP123DAO 
         registerCanister : (Metadata) -> async Result.Result<(), Text>;
     };
 };
